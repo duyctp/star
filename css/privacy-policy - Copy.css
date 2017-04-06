@@ -1,0 +1,42 @@
+.terms-conditions {
+  margin-top: 10px;
+}
+.terms-conditions .terms-conditions-content h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #115fad;
+  padding: 30px 0 0px 0;
+}
+.terms-conditions .terms-conditions-content .table-bordered {
+  margin-left: 40px;
+}
+.terms-conditions .terms-conditions-content .table-bordered tr td {
+  font-size: 16px;
+  color: #666;
+}
+.terms-conditions .terms-conditions-content p {
+  font-size: 16px;
+  color: #666;
+  padding-left: 40px;
+}
+.terms-conditions .terms-conditions-content > ol {
+  list-style-type: decimal;
+  display: block;
+}
+.terms-conditions .terms-conditions-content > ol > li {
+  display: list-item;
+  font-size: 16px;
+  color: #666;
+  list-style-type: decimal;
+}
+.terms-conditions .terms-conditions-content > ol > li > ul {
+  list-style-type: disc;
+  padding: 5px 0 5px 15px;
+  display: block;
+}
+.terms-conditions .terms-conditions-content > ol > li > ul > li {
+  display: list-item;
+  font-size: 16px;
+  color: #666;
+  list-style-type: disc;
+}

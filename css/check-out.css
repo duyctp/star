@@ -1,0 +1,201 @@
+.check-infomation {
+  background: #f8f8f8;
+}
+.check-out-main .col-md-5 {
+  margin-top: 40px;
+  padding: 0;
+}
+.check-title-block {
+  border-bottom: 2px #ffcb04 solid;
+}
+.check-title-block .title-lable {
+  font-size: 24px;
+  font-weight: 300;
+  color: #115fad;
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+}
+.check-title-block .title-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #115fad;
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+  float: right;
+}
+.check-phone-img,
+.check-phone-text {
+  margin: 22px 0 20px;
+}
+.check-phone-img {
+  text-align: center;
+}
+.col-md-8.check-phone-text {
+  padding: 0;
+}
+.col-md-8.check-phone-text .title-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #115fad;
+  padding-right: 15px;
+}
+.col-md-8.check-phone-text .choose-block {
+  padding-top: 25px;
+}
+.col-md-8.check-phone-text .choose-block .choose-name {
+  font-size: 18px
+            color:#666;
+  font-weight: 100;
+}
+.col-md-8.check-phone-text .choose-block .choose-color-fill {
+  padding-left: 15px;
+  position: relative;
+}
+.col-md-8.check-phone-text .choose-block .choose-color-fill img {
+  padding: 3px 3px 3px 3px;
+  border: 1px #ccc solid;
+  position: absolute;
+  top: -2px;
+}
+.col-md-8.check-phone-text .choose-block .choose-capacity-text {
+  font-weight: 100;
+  padding: 3px 3px 3px 3px;
+  margin-left: 40px;
+  border: 1px #ccc solid;
+  position: absolute;
+}
+.col-md-8.check-phone-text p {
+  font-weight: 100;
+  padding-top: 25px;
+}
+.check-plan {
+  padding-top: 20px;
+  margin-top: 5px;
+  border-top: 1px #d4d4d4 solid;
+}
+.check-plan .title-lable {
+  font-size: 24px;
+  font-weight: 300;
+  color: #115fad;
+  padding-left: 20px;
+}
+.check-plan .title-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #115fad;
+  padding-right: 20px;
+  float: right;
+}
+.check-plan p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.check-plan p:first-of-type {
+  padding-top: 15px;
+}
+.check-offer {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px #d4d4d4 solid;
+}
+.check-offer .title-lable {
+  font-size: 24px;
+  font-weight: 300;
+  color: #115fad;
+  padding-left: 20px;
+}
+.check-offer .btn {
+  display: block;
+  margin: 10px 0 20px 20px;
+}
+.check-offer p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.check-input {
+  margin-top: 40px;
+}
+.check-input h2 {
+  color: #115fad;
+  font-weight: bold;
+  font-size: 24px;
+}
+.check-input .direct-contect {
+  text-align: center;
+  background: #f8f8f8;
+}
+.check-input .direct-contect .btn {
+  margin: 20px 20px 20px 0;
+}
+.check-input .start-lable-title {
+  background: #f8f8f8;
+  margin-bottom: 20px;
+}
+.check-input .start-lable-title h3 {
+  text-align: center;
+  color: #115fad;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 15px 0 15px 0;
+  margin-top: 25px;
+}
+.check-input .title-lable {
+  font-weight: 100;
+  font-size: 20px;
+  color: #115fad;
+}
+.check-input .form-control {
+  min-height: 50px;
+  font-size: 16px;
+}
+.check-input .payment-text p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+}
+.check-input p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+}
+.check-input .agreement {
+  padding: 2em;
+  max-height: 300px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.check-input .agreement h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #115fad;
+}
+.check-input .agreement li,
+.check-input .agreement dd {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+}
+.check-input .checkbox {
+  margin-top: 20px;
+}
+.check-input .complete-btn {
+  margin-top: 30px;
+}
+@media (max-width: 768px) {
+  .col-md-8.check-phone-text {
+    padding-left: 20px;
+  }
+  .col-md-8.check-phone-text p {
+    font-size: 16px;
+  }
+  .col-md-8.check-phone-text .choose-block .choose-name {
+    font-size: 16px;
+  }
+}

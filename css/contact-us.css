@@ -1,0 +1,123 @@
+.star-title-getintouch {
+  text-align: center;
+  margin: 30px 0 30px;
+}
+.star-title-getintouch .col-in-touch > h1 {
+  color: #115fad;
+}
+.star-title-getintouch .col-in-touch > p {
+  font-weight: 100;
+  color: #666;
+}
+.star-sendusmessage {
+  margin-bottom: 60px;
+}
+.star-sendusmessage input.form-control {
+  height: 50px;
+  font-size: 16px;
+}
+.star-sendusmessage textarea > .form-control {
+  height: auto;
+}
+.star-sendusmessage .title-lable {
+  color: #115fad;
+  font-weight: 300;
+  font-size: 18px;
+}
+.button-send {
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+.button-send .btn-contact-us {
+  margin: 0 10px 0 10px;
+}
+.find-us {
+  text-align: center;
+  margin-top: 40px;
+}
+.find-us h1 {
+  color: #115fad;
+  margin-bottom: 30px;
+}
+.star-address {
+  margin-top: 20px;
+}
+.get-location-box {
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+}
+.get-location-box .title-address {
+  color: #115fad;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.8em 0 0.8em;
+}
+.get-location-box ul.content-contact-box {
+  padding: 1.5em 0 0 1.5em;
+}
+.get-location-box ul.content-contact-box li {
+  list-style: none;
+  display: block;
+  line-height: 24px;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 0 0 5px;
+}
+.get-location-box ul.content-contact-box li i {
+  display: block;
+  float: left;
+  margin: 7px 8px 10px 0;
+  position: relative;
+  text-align: center;
+  top: -2px;
+  width: 16px;
+  color: #dbdbdb;
+}
+.get-location-box div {
+  text-align: center;
+}
+.get-location-box .btn-box {
+  margin: 5px 0 20px;
+}
+.get-location-box.active-box {
+  border: 1px solid #115fad;
+  border-radius: 10px;
+}
+.get-location-box.active-box .title-address {
+  color: #115fad;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid #115fad;
+  padding: 0.8em 0 0.8em;
+}
+.get-location-box.active-box ul.content-contact-box {
+  padding: 1.5em 0 0 1.5em;
+}
+.get-location-box.active-box ul.content-contact-box li {
+  list-style: none;
+  display: block;
+  line-height: 24px;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 0 0 5px;
+}
+.get-location-box.active-box ul.content-contact-box li i {
+  display: block;
+  float: left;
+  margin: 7px 8px 10px 0;
+  position: relative;
+  text-align: center;
+  top: -2px;
+  width: 16px;
+  color: #115fad;
+}
+.get-location-box.active-box div {
+  text-align: center;
+}
+.get-location-box.active-box .btn-box {
+  margin: 5px 0 20px;
+}

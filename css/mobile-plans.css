@@ -1,0 +1,112 @@
+.star-sub-nav {
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: 1px solid #dadee2;
+}
+.star-sub-nav .container {
+  height: auto;
+  float: none;
+}
+.star-sub-nav .container .nav.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.star-sub-nav .container .nav.navbar-nav > li > a {
+  color: #95b7e1;
+  border-bottom: 2px solid transparent;
+}
+.star-sub-nav .container .nav.navbar-nav > li > a:hover {
+  color: #115fad;
+  border-bottom: 2px solid #115fad;
+  background-color: #fff;
+}
+.star-iphone-huge {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.star-iphone-slide {
+  text-align: center;
+}
+.star-iphone-slide .carousel-inner .item {
+  text-align: center;
+}
+.star-iphone-slide .carousel-inner .item img {
+  height: auto;
+  display: inline-block;
+}
+.star-iphone-slide .nav-justified {
+  margin-top: 15px;
+}
+.star-iphone-slide .nav-justified > li > a {
+  color: #95b7e1;
+  font-size: 14px;
+  padding: 5px 5px;
+  border-bottom: 2px solid transparent;
+}
+.star-iphone-slide .nav-justified > li > a:hover {
+  color: #115fad;
+  border-bottom: 2px solid #115fad;
+  background-color: #fff;
+}
+.star-nav-iphone li a {
+  border-right: 1px solid #e5e5e5;
+}
+.star-nav-iphone li .last-nav {
+  border-right: none;
+}
+.star-iphone-content {
+  padding-left: 20px;
+}
+.star-iphone-content h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #666;
+  padding: 0 0 30px 0;
+}
+.star-iphone-content p {
+  font-weight: 300;
+  color: #666;
+  padding-bottom: 10px;
+}
+.star-btn-mobile {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background: #115fad;
+  border-radius: 20px;
+  padding: 0.25em 2em;
+  margin-top: 2em;
+}
+.star-btn-mobile:hover {
+  color: #fff;
+}
+.mobileplans-hr {
+  border-top: 1px solid #e5e5e5;
+}
+@media (max-width: 768px) {
+  .nav > li {
+    display: inline-block;
+  }
+  .star-iphone-content h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .star-iphone-content p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .star-iphone-content a {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .star-iphone {
+    text-align: center;
+  }
+  .item img {
+    padding: 0 10% 0 10%;
+  }
+}

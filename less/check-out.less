@@ -1,0 +1,201 @@
+.check-infomation{
+    background: #f8f8f8;
+}
+.check-out-main .col-md-5{
+    margin-top: 40px;
+    padding: 0;
+}
+@main-color :#115fad;
+@sub-main-color: #ffcb04 ;
+.mytitle(){
+    font-size: 24px;
+    font-weight: 300;
+    color: @main-color;
+}
+.myprice(){
+    font-size: 24px;
+    font-weight: bold;
+    color: @main-color;
+}
+.myp(){
+    font-size: 16px;
+    color: #666;
+    font-weight: 300;
+}
+.check-title-block{
+    border-bottom: 2px @sub-main-color solid;
+    .title-lable{
+        .mytitle();
+        padding: 20px 20px 20px 20px;
+        display: inline-block;
+    }
+    .title-price{
+        .myprice();
+        display: inline-block;
+        padding: 20px 20px 20px 20px;
+        float: right;
+    }
+}
+.check-phone-img,.check-phone-text{
+    margin: 22px 0 20px;
+}
+.check-phone-img{
+    text-align: center;
+}
+.col-md-8.check-phone-text{
+    padding: 0;
+    .title-name{
+        font-weight: bold;
+        font-size: 18px;
+        color: @main-color;
+        padding-right: 15px;
+    }
+    .choose-block{
+        padding-top: 25px;
+        .choose-name{
+            font-size: 18px
+            color:#666;
+            font-weight: 100;
+        }
+        .choose-color-fill{
+            padding-left: 15px;
+            position: relative;
+            img{
+                padding: 3px 3px 3px 3px;
+                border: 1px #ccc solid;
+                position: absolute;
+                top: -2px;
+            }
+        }
+        .choose-capacity-text{
+            font-weight: 100;
+            padding: 3px 3px 3px 3px;
+            margin-left: 40px;
+            border: 1px #ccc solid;
+            position: absolute;
+        }
+    }
+    p{
+        font-weight: 100;
+        padding-top: 25px;
+    }
+}
+.check-plan{
+    padding-top: 20px;
+    margin-top: 5px;
+    border-top: 1px #d4d4d4 solid;
+    .title-lable{
+        .mytitle();
+        padding-left: 20px;
+    }
+    .title-price{
+        .myprice();
+        padding-right: 20px;
+        float: right;
+    }
+    p{
+        .myp();
+        margin-bottom: 5px;
+        padding-left: 20px;
+        &:first-of-type{
+            padding-top: 15px;             
+        }
+    }
+
+}
+.check-offer{
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px #d4d4d4 solid;
+    .title-lable{
+        .mytitle();
+        padding-left: 20px;
+    }
+    .btn{
+            display: block;
+            margin: 10px 0 20px 20px;
+        }  
+    p{
+        .myp();
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }     
+}
+.check-input{
+    margin-top: 40px;
+    h2{
+        color: @main-color;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .direct-contect{
+        text-align: center;
+        background: #f8f8f8;
+        .btn{
+            margin: 20px 20px 20px 0;
+        }
+    }
+    .start-lable-title{
+    background: #f8f8f8;
+    margin-bottom: 20px;
+        h3{
+            text-align: center;
+            color: @main-color;
+            font-size: 24px;
+            font-weight: 100;
+            padding: 15px 0 15px 0;
+            margin-top: 25px;
+        }
+
+    }
+    .title-lable{
+        font-weight: 100;
+        font-size: 20px;
+        color: @main-color;
+    }
+    .form-control{
+        min-height: 50px;
+        font-size: 16px; 
+    }
+    .payment-text{
+        p{
+            .myp();
+        }
+    }
+    p{
+        .myp();
+    }
+    .agreement{
+        padding: 2em;
+        max-height: 300px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+            color: @main-color;
+        }
+        li,dd{
+            .myp();
+        }
+    }
+    .checkbox{
+        margin-top: 20px;
+    }
+    .complete-btn{
+        margin-top: 30px;
+    }
+}
+@media(max-width:768px){
+    .col-md-8.check-phone-text
+    {
+        padding-left: 20px;
+    }
+    .col-md-8.check-phone-text p{
+        font-size: 16px;
+    }
+    .col-md-8.check-phone-text .choose-block .choose-name{
+        font-size: 16px;
+    }
+}

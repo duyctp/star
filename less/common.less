@@ -1,0 +1,89 @@
+@color-scrumb: #f8f8f8;
+@main-color: #115fad;
+@main-sub-color: #95b7e1; 
+@main-sub-main-color: #ffcb04;
+.star-breadcrumb {
+    background-color: @color-scrumb;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #dadee2;
+    .breadcrumb {
+        padding: 0;
+        margin-bottom: 0;
+        background-color: @color-scrumb;
+        border-radius: none;
+    .active {
+        color: #115fad; }  
+    li>a{
+        color: @main-sub-color;
+    }
+    }
+}
+.stra-hr{
+     border-top: 1px solid #dbdbdb;
+}
+
+.star-btn-lg{
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0.5em 1.7em;
+    transition: background-color .2s ease-out;
+    &::before{
+        transform: scale3d(0.8, 0.5, 1);
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        bottom: -20px;
+        right: -20px;
+        background: inherit;
+        border-radius: 50px;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    &:hover{
+        &::before{
+            animation: anim-moema-5 0.3s 0.3s ;
+            }
+        }
+    
+}
+@-webkit-keyframes anim-moema-5 {
+    to {
+        opacity: 0;
+        
+        transform: scale3d(1, 1, 1);
+    }
+}
+.star-btn-xs{
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 0.4em 1.8em;
+        
+       
+    }
+    
+.star-btn-yellow{
+    
+    background: @main-sub-main-color;
+    color: @main-color;
+        &:hover { 
+        color: @main-color; 
+        border: 1px solid @main-color;
+        
+        background: #fff;
+            
+    }
+
+}
+.star-btn-blue{
+    
+    background: @main-color;
+    color: #fff;
+        &:hover { 
+        color: @main-sub-main-color; 
+        border: 1px solid @main-color;
+        background: #fff;
+    }
+}

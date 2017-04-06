@@ -1,0 +1,401 @@
+.mytitle {
+  font-size: 24px;
+  font-weight: 300;
+  color: #115fad;
+}
+.sub-content {
+  font-size: 16px;
+  font-weight: 300;
+  color: #666;
+}
+.myh3 {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+}
+.myp {
+  font-size: 16px;
+  font-weight: 300px;
+  color: #666;
+}
+.myfilter {
+  font-size: 24px;
+  color: #115fad;
+  font-weight: 300;
+}
+.mysumm {
+  font-weight: 300;
+  font-size: 18px;
+  color: #115fad;
+}
+.star-sub-nav {
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: 1px solid #dadee2;
+}
+.star-sub-nav .container {
+  height: auto;
+  float: none;
+}
+.star-sub-nav .container .nav.navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.star-sub-nav .container .nav.navbar-nav > li > a {
+  color: #95b7e1;
+  border-bottom: 2px solid transparent;
+}
+.star-sub-nav .container .nav.navbar-nav > li > a:hover {
+  color: #115fad;
+  border-bottom: 2px solid #115fad;
+  background-color: #fff;
+}
+.phone-detail {
+  margin-top: 30px;
+}
+.header-taitle-h1 {
+  color: #115fad;
+  margin-bottom: 30px;
+}
+.plan-slide-phone {
+  text-align: center;
+}
+.plan-slide-phone .filter-title {
+  font-size: 24px;
+  color: #115fad;
+  font-weight: 300;
+  padding: 20px 0 0 0;
+}
+.plan-slide-phone .filter-title a {
+  color: #115fad;
+}
+.plan-step h1 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #115fad;
+}
+.plan-step h1 .follow-step {
+  font-size: 16px;
+  color: #666;
+  padding-left: 10px;
+}
+.plan-step .step-section {
+  margin-bottom: 2em;
+}
+.plan-step .step-section .filter-title {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+}
+.plan-step .step-section .filter-title .valua {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+  color: #666;
+  padding-left: 10px;
+}
+.plan-step .step-section .filter-title .step-title {
+  color: #115fad;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 2px 9px 2px 9px;
+  border: 1px solid #ffcb04;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.plan-step .step-section .filter-option-colour {
+  padding-left: 42px;
+}
+.plan-step .step-section .filter-option-colour .colour {
+  background: none;
+  max-width: 35px;
+  max-height: 35px;
+  padding: 0;
+}
+.plan-step .step-section .filter-option-colour .colour img {
+  padding: 3px 3px 3px 3px;
+  border: 1px solid #b7b7b7;
+}
+.plan-step .step-section .filter-option-colour .colour img.active {
+  border: 1px solid #115fad;
+}
+.plan-step .step-section .filter-option-storage {
+  padding-left: 2.1em;
+}
+.plan-step .step-section .filter-option-storage .storage {
+  background: 0 0;
+  text-decoration: none;
+  padding: 0 .625em;
+  line-height: 1.7em;
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid #b7b7b7;
+  color: #666;
+  margin-left: .4em;
+  margin-bottom: 0;
+}
+.plan-step .step-section .filter-option-storage .storage.active {
+  border: 1px solid #115fad;
+  color: #115fad;
+}
+.plan-step .styled-select {
+  padding-left: 2.3em;
+}
+.plan-step .styled-select .select-quantity {
+  background: transparent;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border-radius: 0;
+  height: 32px !important;
+  text-indent: 0.01px;
+}
+.plan-step .styled-select .select-quantity:after {
+  content: &#xf107;
+}
+.plan-right {
+  padding: 0;
+}
+.plan-right .header-title {
+  min-height: 205px;
+  text-align: center;
+  background: #f8f8f8;
+  position: relative;
+}
+.plan-right .header-title h3 {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+  font-weight: bold;
+  border-bottom: 1px solid #b7b7b7;
+  padding: 20px 0 20px;
+}
+.plan-right .header-title .title-summary {
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #115fad;
+}
+.plan-right .header-title .amount {
+  font-weight: bold;
+  font-size: 57px;
+  padding-left: 5px;
+  color: #ffcb04;
+}
+.plan-right .header-title .per-month {
+  position: absolute;
+  bottom: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #115fad;
+}
+.live-chat {
+  background: #f8f8f8;
+  text-align: center;
+}
+.live-chat h4 {
+  padding: 15px 0 15px;
+}
+.live-chat h4 a {
+  font-weight: 300;
+  font-size: 18px;
+  color: #115fad;
+}
+.book-a-call {
+  background: #f8f8f8;
+  text-align: center;
+}
+.book-a-call h4 {
+  padding: 15px 0 9px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #115fad;
+  margin-bottom: 0px;
+}
+.book-a-call p {
+  font-size: 16px;
+  color: #666;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.choose-plan {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+.choose-plan h3 {
+  margin-top: 10px;
+}
+.choose-plan h3 a {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.plans-detail {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 1px solid #b7b7b7;
+}
+.plans-detail .plan-delivery {
+  text-align: center;
+}
+.plans-detail .plan-delivery h3 {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+}
+.plans-detail .plan-delivery p {
+  font-size: 16px;
+  font-weight: 300px;
+  color: #666;
+}
+.plan-buy {
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.plan-buy .bg-item {
+  background: #efefef;
+}
+.plan-buy .bg-item-top {
+  background: #feb030;
+  padding: 10px 0 10px;
+  color: #fff;
+  font-weight: 700;
+}
+.plan-buy .gold {
+  background: #d87474;
+}
+.plan-buy .silver {
+  background: #9c3c3c;
+}
+.plan-buy .bronze {
+  background: #463356;
+}
+.plan-buy .value {
+  background: #693b5f;
+}
+.plan-buy .bg-item2 {
+  background: #f8f8f8;
+}
+.plan-buy .plans,
+.plan-buy h2 {
+  padding: 25px 0 25px;
+  margin: 0;
+  font-weight: 700;
+  font-size: 36px;
+}
+.plan-buy:hover {
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.plan-buy .col-wrapper {
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+}
+.plan-buy .col-wrapper .price-value {
+  font-size: 50px;
+  color: #666;
+  font-weight: 300;
+  position: relative;
+}
+.plan-buy .col-wrapper .price-value span {
+  font-size: 24px;
+  top: .3em;
+  left: -0.9em;
+  padding-right: 5px;
+  position: absolute;
+}
+.plan-buy .col-wrapper p {
+  font-size: 16px;
+  font-weight: 300px;
+  color: #666;
+}
+.plan-buy .col-wrapper h3 {
+  color: #115fad;
+  font-size: 22px;
+  font-weight: 300;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.plan-buy .col-wrapper .plan-sub-content {
+  font-size: 16px;
+  font-weight: 300;
+  color: #666;
+}
+.plan-buy .col-wrapper .policy {
+  padding-top: 10px;
+}
+.plan-buy .col-wrapper .policy a {
+  color: #115fad;
+}
+.plan-buy .last-wrapper {
+  padding-top: 20px;
+}
+.plan-recommend {
+  border-top: 1px solid #b7b7b7;
+  margin-top: 60px;
+}
+.plan-recommend .rec-title {
+  text-align: center;
+}
+.plan-recommend .rec-title h2 {
+  color: #115fad;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.rec-img {
+  text-align: center;
+}
+.rec-content {
+  text-align: center;
+}
+.rec-content h4 {
+  color: #666;
+  font-weight: 300;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.rec-content .device-price {
+  padding: 0px 0 15px;
+}
+.rec-content .device-price .starting-from {
+  color: #666;
+  font-weight: 300;
+  font-size: 18px;
+}
+.rec-content .device-price .dollars {
+  font-size: 24px;
+  color: #115fad;
+}
+.rec-content .device-price .per-month {
+  color: #666;
+  font-weight: 300;
+  font-size: 18px;
+}
+@media (max-width: 767px) {
+  .nav > li {
+    display: inline-block;
+  }
+  .plan-buy {
+    margin-bottom: 30px;
+  }
+  .star-rec {
+    margin-bottom: 30px;
+  }
+  .nav-plan {
+    margin: 20px 0 20px 0;
+    display: inline-block;
+  }
+  .nav-plan li a {
+    padding: .7em 1em;
+  }
+}

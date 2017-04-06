@@ -1,0 +1,73 @@
+.star-breadcrumb {
+  background-color: #f8f8f8;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #dadee2;
+}
+.star-breadcrumb .breadcrumb {
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #f8f8f8;
+  border-radius: none;
+}
+.star-breadcrumb .breadcrumb .active {
+  color: #115fad;
+}
+.star-breadcrumb .breadcrumb li > a {
+  color: #95b7e1;
+}
+.stra-hr {
+  border-top: 1px solid #dbdbdb;
+}
+.star-btn-lg {
+  position: relative;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 0.5em 1.7em;
+  transition: background-color 0.2s ease-out;
+}
+.star-btn-lg::before {
+  transform: scale3d(0.8, 0.5, 1);
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  bottom: -20px;
+  right: -20px;
+  background: #ffcb04;
+  border-radius: 50px;
+  z-index: -1;
+  opacity: 0.6;
+}
+.star-btn-lg:hover::before {
+  animation: anim-moema-5 0.3s 0.3s;
+}
+@-webkit-keyframes anim-moema-5 {
+  to {
+    opacity: 0;
+    transform: scale3d(1, 1, 1);
+  }
+}
+.star-btn-xs {
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 0.4em 1.8em;
+}
+.star-btn-yellow {
+  background: #ffcb04;
+  color: #115fad;
+}
+.star-btn-yellow:hover {
+  color: #115fad;
+  border: 1px solid #115fad;
+  background: #fff;
+}
+.star-btn-blue {
+  background: #115fad;
+  color: #fff;
+}
+.star-btn-blue:hover {
+  color: #ffcb04;
+  border: 1px solid #115fad;
+  background: #fff;
+}
